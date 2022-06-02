@@ -49,7 +49,7 @@ public class CreateNodeButtonControlTool implements ITool {
         placeNodeTool.setIsNoAddInParentChildNodes(false);
         placeNodeTool.placeButtonNode(node.uiNode.posX, node.uiNode.posY);
 
-        for (Node item: node.childNodes) {
+        for (Node item: node.getChildNodes()) {
             create(nodeButtonControl, item);
         }
 

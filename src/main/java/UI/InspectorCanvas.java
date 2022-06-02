@@ -134,7 +134,7 @@ public class InspectorCanvas {
         UINode uiNode = node.uiNode;
         double size = node.uiNode.posX;
 
-        for (Node item : node.childNodes) {
+        for (Node item : node.getChildNodes()) {
             UINode t = CheckNodeX(item);
 
             if(t.posX > size)
@@ -148,7 +148,7 @@ public class InspectorCanvas {
         UINode uiNode = node.uiNode;
         double size = node.uiNode.posY;
 
-        for (Node item : node.childNodes) {
+        for (Node item : node.getChildNodes()) {
             UINode t = CheckNodeY(item);
 
             if(t.posY > size)

@@ -13,7 +13,7 @@ public class Node {
     public UINode uiNode;
 
     /** Хранит ссылки на дочерние ноды */
-    public List<Node> childNodes;
+    private List<Node> childNodes;
 
     /** Конструктор инициализации нода
      * Инициализирует массив дочерних элементов*/
@@ -21,5 +21,13 @@ public class Node {
         name = "none";
         description = "";
         childNodes = new ArrayList<Node>();
+    }
+
+    public List<Node> getChildNodes () {
+        return childNodes;
+    }
+
+    public void addChildNode (Node node) {
+        childNodes.add(node);
     }
 }

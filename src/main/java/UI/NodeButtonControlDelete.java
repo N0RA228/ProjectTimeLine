@@ -47,11 +47,11 @@ public class NodeButtonControlDelete {
 
         canvasAnchorPane.getChildren().remove(nodeButtonControl.getButton());
 
-        nodeButtonControl.getNode().childNodes.clear();
+        nodeButtonControl.getNode().getChildNodes().clear();
 
         if(nodeButtonControl.getParent() != null){
 
-            nodeButtonControl.getParent().getNode().childNodes.remove(nodeButtonControl.getNode());
+            nodeButtonControl.getParent().getNode().getChildNodes().remove(nodeButtonControl.getNode());
             nodeButtonControl.getParent().childButtonControls.remove(nodeButtonControl);
 
             if(nodeButtonControl.getLineToParent() != null) {

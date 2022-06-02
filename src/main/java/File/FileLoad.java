@@ -130,7 +130,7 @@ public class FileLoad extends Application implements IFileLoad {
 
                 int endIndexOf = getPosCloseId(nodeString, "[","]", startIndexOf);
                 String newstring = nodeString.substring(startIndexOf + 1, endIndexOf);
-                node.childNodes.add(loadNode(newstring));
+                node.addChildNode(loadNode(newstring));
 
                 startIndexOf = nodeString.indexOf("[", endIndexOf);
             }

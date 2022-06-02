@@ -117,14 +117,14 @@ public class FileSave extends Application implements IFileSave {
                         "}\n"
         );
 
-        if(node.childNodes.size() > 0)
+        if(node.getChildNodes().size() > 0)
             setting += "childNodes {\n";
 
-        for (Node item: node.childNodes) {
+        for (Node item: node.getChildNodes()) {
             setting += getNodeToString(item);
         }
 
-        if(node.childNodes.size() > 0)
+        if(node.getChildNodes().size() > 0)
             setting += "}\n";
 
         setting += "]\n";

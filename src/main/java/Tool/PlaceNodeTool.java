@@ -72,7 +72,7 @@ public class PlaceNodeTool implements ITool{
             parent.childButtonControls.add(nodeButtonControl);
 
             if(isAddInParentChildNodes)
-                parent.getNode().childNodes.add(nodeButtonControl.getNode());
+                parent.getNode().addChildNode(nodeButtonControl.getNode());
 
             nodeButtonControl.setParent(parent);
         }

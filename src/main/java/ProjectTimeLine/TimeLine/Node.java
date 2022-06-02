@@ -28,6 +28,10 @@ public class Node {
     }
 
     public void addChildNode (Node node) {
+
+        if(node == null)
+            return;
+
         childNodes.add(node);
     }
 }

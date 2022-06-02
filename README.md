@@ -8,12 +8,12 @@
   - **Технологический стек**: Java, Maven.
   - **Статус**:  Release 1.0.
   - **Ссылка на продукт или демо-экземпляр**
-  [- Describe what sets this apart from related-projects. Linking to another doc or page is OK if this can't be expressed in a sentence or two.](https://github.com/N0RA228/ProjectTimeline)
+  [- ProjectTimeLine](https://github.com/N0RA228/ProjectTimeline)
 
 
 **Скриншот рабочего окна приложения**: If the software has visual components, place a screenshot after the description; e.g.,
 
-![](https://raw.githubusercontent.com/cfpb/open-source-project-template/main/screenshot.png)
+![](![image]https://user-images.githubusercontent.com/65660799/171688374-c70d6d1e-6868-4445-85bf-adb71107893b.png)
 
 
 ## Зависимости

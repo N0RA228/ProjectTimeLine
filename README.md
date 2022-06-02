@@ -1,19 +1,19 @@
 # ProjectTimeline
 ----------------
 
-**Описание**:  Поместите осмысленное, краткое и простое описание того, чего этот проект пытается достичь и почему это важно.
-Опишите проблемы, которые решает этот проект.
-Опишите, как это программное обеспечение может улучшить жизнь своей аудитории.
+**Описание**:  Данный редактор предназначен для создания и редактирования дорожных карт.
 
-  - **Технологический стек**: Indicate the technological nature of the software, including primary programming language(s) and whether the software is intended as standalone or as a module in a framework or other ecosystem.
-  - **Статус**:  Alpha, Beta, 1.1, etc. It's OK to write a sentence, too. The goal is to let interested people know where this project is at. This is also a good place to link to the [CHANGELOG](CHANGELOG.md).
-  - **Ссылка на продукт или демо-экземпляр**
-  - Describe what sets this apart from related-projects. Linking to another doc or page is OK if this can't be expressed in a sentence or two.
+Программа позволяет пользователю строить из нодов карту задач, редактировать, выстраивать иерархию подзадач, добавлять описание задачам, менять цвет нодов. Также программа позволяет сохранять и загружать созданные проекты.
+
+  - **Технологический стек**: Java, Maven.
+  - **Статус**:  Release 1.0.
+  - **Ссылка на продукт**
+  [- ProjectTimeLine](https://github.com/N0RA228/ProjectTimeline)
 
 
 **Скриншот рабочего окна приложения**: If the software has visual components, place a screenshot after the description; e.g.,
 
-![](https://raw.githubusercontent.com/cfpb/open-source-project-template/main/screenshot.png)
+![image](https://user-images.githubusercontent.com/65660799/171688497-ff999246-c56e-4aba-8db8-79958026d176.png)
 
 
 ## Зависимости

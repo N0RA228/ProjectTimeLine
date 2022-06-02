@@ -7,13 +7,13 @@
 
   - **Технологический стек**: Java, Maven.
   - **Статус**:  Release 1.0.
-  - **Ссылка на продукт или демо-экземпляр**
+  - **Ссылка на продукт**
   [- ProjectTimeLine](https://github.com/N0RA228/ProjectTimeline)
 
 
 **Скриншот рабочего окна приложения**: If the software has visual components, place a screenshot after the description; e.g.,
 
-![](![image]https://user-images.githubusercontent.com/65660799/171688374-c70d6d1e-6868-4445-85bf-adb71107893b.png)
+![image](https://user-images.githubusercontent.com/65660799/171688497-ff999246-c56e-4aba-8db8-79958026d176.png)
 
 
 ## Зависимости

@@ -29,7 +29,7 @@
 
 ## Приглашение к сотрудничеству
 
-Загрузите исходные тексты или клонируйте их с помощью команды git clone в выбранный каталог: git clone [https://github.com/pavelgulyev/WebShedule.git][(https://github.com/pavelgulyev/WebShedule.git)](https://github.com/N0RA228/ProjectTimeline) и создайте ветку
+Загрузите исходные тексты или клонируйте их с помощью команды git clone в выбранный каталог: git clone [[https://github.com/pavelgulyev/WebShedule.git][([https://github.com/pavelgulyev/WebShedule.git](https://github.com/N0RA228/ProjectTimeline))](https://github.com/N0RA228/ProjectTimeline)](https://github.com/N0RA228/ProjectTimeline) и создайте ветку
 
 
 ----
